@@ -757,3 +757,675 @@ Using default security password: 66d33f58-dbd8-4453-953b-659d2bbf39b9
 2016-09-26 11:10:14.169  WARN 10184 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type [java.lang.String] to required type [java.lang.Long]; nested exception is java.lang.NumberFormatException: For input string: "get"
 2016-09-26 11:10:55.105  WARN 10184 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
 2016-09-26 11:12:50.545  WARN 10184 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2016-09-27 15:28:25.821  INFO 4952 --- [main] br.com.projeto.primeiro.AppMain          : Starting AppMain on CTBC_MODEM with PID 4952 (C:\Users\Camila\Documents\Projetos\primeiro-projeto\target\classes started by Camila in C:\Users\Camila\Documents\Projetos\primeiro-projeto)
+2016-09-27 15:28:25.831 DEBUG 4952 --- [main] br.com.projeto.primeiro.AppMain          : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-09-27 15:28:25.832  INFO 4952 --- [main] br.com.projeto.primeiro.AppMain          : No active profile set, falling back to default profiles: default
+2016-09-27 15:28:26.088  INFO 4952 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1372ed45: startup date [Tue Sep 27 15:28:26 BRT 2016]; root of context hierarchy
+2016-09-27 15:28:33.388  INFO 4952 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-09-27 15:28:34.366  INFO 4952 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 15:28:34.390  INFO 4952 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2016-09-27 15:28:36.696  INFO 4952 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2016-09-27 15:28:37.634  INFO 4952 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2016-09-27 15:28:39.190  INFO 4952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb16a60a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-09-27 15:28:59.362  INFO 4952 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-09-27 15:28:59.519  INFO 4952 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-27 15:28:59.524  INFO 4952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-09-27 15:29:00.816  INFO 4952 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-27 15:29:00.817  INFO 4952 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 34742 ms
+2016-09-27 15:29:02.665  INFO 4952 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-09-27 15:29:02.670  INFO 4952 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-09-27 15:29:02.671  INFO 4952 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-09-27 15:29:02.672  INFO 4952 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-27 15:29:02.677  INFO 4952 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-09-27 15:29:02.681  INFO 4952 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-09-27 15:29:03.827  INFO 4952 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 99e7426a-5d32-49a4-9486-9e5fc450f5aa
+
+2016-09-27 15:29:04.011  INFO 4952 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-09-27 15:29:04.012  INFO 4952 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-09-27 15:29:04.016  INFO 4952 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-09-27 15:29:04.016  INFO 4952 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-09-27 15:29:04.019  INFO 4952 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-09-27 15:29:04.338  INFO 4952 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@7cdfac86, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21876a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@3800b7fa, org.springframework.security.web.header.HeaderWriterFilter@c3e0653, org.springframework.security.web.csrf.CsrfFilter@459450db, org.springframework.security.web.authentication.logout.LogoutFilter@37f251d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18632a70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ed148b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2741e3d9, org.springframework.security.web.session.SessionManagementFilter@b0f151b, org.springframework.security.web.access.ExceptionTranslationFilter@1b295bcf]
+2016-09-27 15:29:15.999  INFO 4952 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-09-27 15:29:32.172  INFO 4952 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1372ed45: startup date [Tue Sep 27 15:28:26 BRT 2016]; root of context hierarchy
+2016-09-27 15:29:32.483  INFO 4952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[POST]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 15:29:32.488  INFO 4952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.updateClientEntity(java.lang.Long,br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 15:29:32.492  INFO 4952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> br.com.projeto.primeiro.client.ClientResource.deleteClientEntity(java.lang.Long)
+2016-09-27 15:29:32.496  INFO 4952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.getClientEntity(java.lang.Long)
+2016-09-27 15:29:32.500  INFO 4952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<br.com.projeto.primeiro.client.ClientEntity>> br.com.projeto.primeiro.client.ClientResource.findAll()
+2016-09-27 15:29:32.507  INFO 4952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-27 15:29:32.512  INFO 4952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-27 15:29:32.641  INFO 4952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 15:29:32.642  INFO 4952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 15:29:32.829  INFO 4952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 15:29:33.418  INFO 4952 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 15:29:33.518  INFO 4952 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2016-09-27 15:29:34.101  INFO 4952 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-09-27 15:29:34.136  INFO 4952 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-09-27 15:29:34.137  INFO 4952 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2016-09-27 15:29:34.139  INFO 4952 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2016-09-27 15:29:34.140  INFO 4952 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2016-09-27 15:29:34.617  INFO 4952 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-09-27 15:29:34.638  INFO 4952 --- [main] br.com.projeto.primeiro.AppMain          : Started AppMain in 70.422 seconds (JVM running for 72.445)
+2016-09-27 15:30:05.205  INFO 4952 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-09-27 15:30:05.253  INFO 4952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-09-27 15:30:06.010  INFO 4952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 731 ms
+2016-09-27 15:30:06.403  WARN 4952 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2016-09-27 16:33:38.368  INFO 10312 --- [main] br.com.projeto.primeiro.AppMain          : Starting AppMain on CTBC_MODEM with PID 10312 (C:\Users\Camila\Documents\Projetos\primeiro-projeto\target\classes started by Camila in C:\Users\Camila\Documents\Projetos\primeiro-projeto)
+2016-09-27 16:33:38.385 DEBUG 10312 --- [main] br.com.projeto.primeiro.AppMain          : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-09-27 16:33:38.387  INFO 10312 --- [main] br.com.projeto.primeiro.AppMain          : No active profile set, falling back to default profiles: default
+2016-09-27 16:33:38.689  INFO 10312 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@593aaf41: startup date [Tue Sep 27 16:33:38 BRT 2016]; root of context hierarchy
+2016-09-27 16:33:44.383  INFO 10312 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-09-27 16:33:46.072  INFO 10312 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 16:33:46.182  INFO 10312 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2016-09-27 16:33:47.853  INFO 10312 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2016-09-27 16:33:47.873  INFO 10312 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2016-09-27 16:33:48.428  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0fe2762] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-09-27 16:33:50.943  INFO 10312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-09-27 16:33:51.004  INFO 10312 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-27 16:33:51.009  INFO 10312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-09-27 16:33:51.661  INFO 10312 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-27 16:33:51.663  INFO 10312 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 12989 ms
+2016-09-27 16:33:55.757  INFO 10312 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-09-27 16:33:55.765  INFO 10312 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-09-27 16:33:55.766  INFO 10312 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-09-27 16:33:55.785  INFO 10312 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-27 16:33:55.791  INFO 10312 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-09-27 16:33:55.812  INFO 10312 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-09-27 16:33:57.374  INFO 10312 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 3e290a8b-303a-4432-bab4-6aced7e9c676
+
+2016-09-27 16:33:57.607  INFO 10312 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-09-27 16:33:57.608  INFO 10312 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-09-27 16:33:57.611  INFO 10312 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-09-27 16:33:57.612  INFO 10312 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-09-27 16:33:57.615  INFO 10312 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-09-27 16:33:57.942  INFO 10312 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@2d3e18e7, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25b4e1e9, org.springframework.security.web.context.SecurityContextPersistenceFilter@33476c1f, org.springframework.security.web.header.HeaderWriterFilter@4e39ec5e, org.springframework.security.web.csrf.CsrfFilter@58d258fa, org.springframework.security.web.authentication.logout.LogoutFilter@245294f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bd9023a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a517c3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42d58104, org.springframework.security.web.session.SessionManagementFilter@6b6e431f, org.springframework.security.web.access.ExceptionTranslationFilter@6cdb526e]
+2016-09-27 16:34:00.280  INFO 10312 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-09-27 16:34:07.377  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@593aaf41: startup date [Tue Sep 27 16:33:38 BRT 2016]; root of context hierarchy
+2016-09-27 16:34:07.773  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.updateClientEntity(java.lang.Long,br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:34:07.781  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> br.com.projeto.primeiro.client.ClientResource.deleteClientEntity(java.lang.Long)
+2016-09-27 16:34:07.786  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[POST]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:34:07.789  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<br.com.projeto.primeiro.client.ClientEntity>> br.com.projeto.primeiro.client.ClientResource.findAll()
+2016-09-27 16:34:07.792  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.getClientEntity(java.lang.Long)
+2016-09-27 16:34:07.802  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-27 16:34:07.807  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-27 16:34:07.971  INFO 10312 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:34:07.973  INFO 10312 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:34:08.281  INFO 10312 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:34:09.938  INFO 10312 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 16:34:10.208  INFO 10312 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2016-09-27 16:34:12.889  INFO 10312 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-09-27 16:34:12.984  INFO 10312 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-09-27 16:34:12.987  INFO 10312 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2016-09-27 16:34:12.988  INFO 10312 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2016-09-27 16:34:12.990  INFO 10312 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2016-09-27 16:34:13.555  INFO 10312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-09-27 16:34:13.578  INFO 10312 --- [main] br.com.projeto.primeiro.AppMain          : Started AppMain in 37.251 seconds (JVM running for 40.604)
+2016-09-27 16:37:36.621  INFO 8160 --- [main] br.com.projeto.primeiro.AppMain          : Starting AppMain on CTBC_MODEM with PID 8160 (C:\Users\Camila\Documents\Projetos\primeiro-projeto\target\classes started by Camila in C:\Users\Camila\Documents\Projetos\primeiro-projeto)
+2016-09-27 16:37:38.624 DEBUG 8160 --- [main] br.com.projeto.primeiro.AppMain          : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-09-27 16:37:38.625  INFO 8160 --- [main] br.com.projeto.primeiro.AppMain          : No active profile set, falling back to default profiles: default
+2016-09-27 16:37:39.215  INFO 8160 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d86a6f: startup date [Tue Sep 27 16:37:39 BRT 2016]; root of context hierarchy
+2016-09-27 16:37:47.219  INFO 8160 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-09-27 16:37:49.310  INFO 8160 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 16:37:49.329  INFO 8160 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2016-09-27 16:37:50.768  INFO 8160 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2016-09-27 16:37:50.801  INFO 8160 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2016-09-27 16:37:51.590  INFO 8160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4dc8b19f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-09-27 16:37:58.226  INFO 8160 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-09-27 16:37:58.338  INFO 8160 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-27 16:37:58.343  INFO 8160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-09-27 16:37:59.238  INFO 8160 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-27 16:37:59.270  INFO 8160 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 20049 ms
+2016-09-27 16:38:02.047  INFO 8160 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-09-27 16:38:02.053  INFO 8160 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-09-27 16:38:02.054  INFO 8160 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-09-27 16:38:02.056  INFO 8160 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-27 16:38:02.065  INFO 8160 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-09-27 16:38:02.072  INFO 8160 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-09-27 16:38:05.073  INFO 8160 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: df236fc5-d3be-4578-9414-472c08722021
+
+2016-09-27 16:38:05.864  INFO 8160 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-09-27 16:38:05.871  INFO 8160 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-09-27 16:38:05.877  INFO 8160 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-09-27 16:38:05.878  INFO 8160 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-09-27 16:38:05.885  INFO 8160 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-09-27 16:38:06.812  INFO 8160 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@a5d0fe0, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65e14be9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f3d375f, org.springframework.security.web.header.HeaderWriterFilter@69f94d9e, org.springframework.security.web.csrf.CsrfFilter@635936e3, org.springframework.security.web.authentication.logout.LogoutFilter@7b4bbbab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cbf9154, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@441876f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24cb5a54, org.springframework.security.web.session.SessionManagementFilter@289e96ec, org.springframework.security.web.access.ExceptionTranslationFilter@744fe0c8]
+2016-09-27 16:38:10.947  INFO 8160 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-09-27 16:38:19.765  INFO 8160 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d86a6f: startup date [Tue Sep 27 16:37:39 BRT 2016]; root of context hierarchy
+2016-09-27 16:38:20.113  INFO 8160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[POST]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:38:20.124  INFO 8160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.updateClientEntity(java.lang.Long,br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:38:20.128  INFO 8160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> br.com.projeto.primeiro.client.ClientResource.deleteClientEntity(java.lang.Long)
+2016-09-27 16:38:20.130  INFO 8160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.getClientEntity(java.lang.Long)
+2016-09-27 16:38:20.134  INFO 8160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<br.com.projeto.primeiro.client.ClientEntity>> br.com.projeto.primeiro.client.ClientResource.findAll()
+2016-09-27 16:38:20.141  INFO 8160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-27 16:38:20.145  INFO 8160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-27 16:38:20.303  INFO 8160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:38:20.304  INFO 8160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:38:20.495  INFO 8160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:38:21.262  INFO 8160 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 16:38:21.397  INFO 8160 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2016-09-27 16:38:23.981  INFO 8160 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-09-27 16:38:24.105  INFO 8160 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-09-27 16:38:24.114  INFO 8160 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2016-09-27 16:38:24.141  INFO 8160 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2016-09-27 16:38:24.144  INFO 8160 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2016-09-27 16:38:24.815  INFO 8160 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-09-27 16:38:24.881  INFO 8160 --- [main] br.com.projeto.primeiro.AppMain          : Started AppMain in 51.093 seconds (JVM running for 53.735)
+2016-09-27 16:38:41.538  INFO 8160 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-09-27 16:38:41.542  INFO 8160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-09-27 16:38:41.658  INFO 8160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 112 ms
+2016-09-27 16:38:42.192  WARN 8160 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:38:48.726  WARN 8160 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:39:56.224  WARN 8160 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:40:02.517  WARN 8160 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:42:25.511  INFO 6116 --- [main] br.com.projeto.primeiro.AppMain          : Starting AppMain on CTBC_MODEM with PID 6116 (C:\Users\Camila\Documents\Projetos\primeiro-projeto\target\classes started by Camila in C:\Users\Camila\Documents\Projetos\primeiro-projeto)
+2016-09-27 16:42:25.533 DEBUG 6116 --- [main] br.com.projeto.primeiro.AppMain          : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-09-27 16:42:25.534  INFO 6116 --- [main] br.com.projeto.primeiro.AppMain          : No active profile set, falling back to default profiles: default
+2016-09-27 16:42:25.769  INFO 6116 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c711375: startup date [Tue Sep 27 16:42:25 BRT 2016]; root of context hierarchy
+2016-09-27 16:42:31.169  INFO 6116 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-09-27 16:42:32.843  INFO 6116 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 16:42:32.940  INFO 6116 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2016-09-27 16:42:35.441  INFO 6116 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2016-09-27 16:42:35.478  INFO 6116 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2016-09-27 16:42:36.205  INFO 6116 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abc55e12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-09-27 16:42:39.799  INFO 6116 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-09-27 16:42:39.918  INFO 6116 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-27 16:42:39.927  INFO 6116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-09-27 16:42:41.743  INFO 6116 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-27 16:42:41.751  INFO 6116 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 15993 ms
+2016-09-27 16:42:46.016  INFO 6116 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-09-27 16:42:46.022  INFO 6116 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-09-27 16:42:46.023  INFO 6116 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-09-27 16:42:46.024  INFO 6116 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-27 16:42:46.030  INFO 6116 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-09-27 16:42:46.034  INFO 6116 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-09-27 16:42:47.495  INFO 6116 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: bf93f058-3a59-4d02-a19e-1a8a9e9eb520
+
+2016-09-27 16:42:47.757  INFO 6116 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-09-27 16:42:47.758  INFO 6116 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-09-27 16:42:47.761  INFO 6116 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-09-27 16:42:47.762  INFO 6116 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-09-27 16:42:47.766  INFO 6116 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-09-27 16:42:48.152  INFO 6116 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@239c4ef7, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b4bbbab, org.springframework.security.web.context.SecurityContextPersistenceFilter@289e96ec, org.springframework.security.web.header.HeaderWriterFilter@744fe0c8, org.springframework.security.web.csrf.CsrfFilter@5184ee64, org.springframework.security.web.authentication.logout.LogoutFilter@66612644, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f3d375f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cf20bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a5d0fe0, org.springframework.security.web.session.SessionManagementFilter@73a9be2e, org.springframework.security.web.access.ExceptionTranslationFilter@69d31a34]
+2016-09-27 16:42:51.483  INFO 6116 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-09-27 16:42:58.576  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c711375: startup date [Tue Sep 27 16:42:25 BRT 2016]; root of context hierarchy
+2016-09-27 16:42:58.958  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.getClientEntity(java.lang.Long)
+2016-09-27 16:42:58.969  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<br.com.projeto.primeiro.client.ClientEntity>> br.com.projeto.primeiro.client.ClientResource.findAll()
+2016-09-27 16:42:58.974  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> br.com.projeto.primeiro.client.ClientResource.deleteClientEntity(java.lang.Long)
+2016-09-27 16:42:58.979  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.updateClientEntity(java.lang.Long,br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:42:58.984  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[POST]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:42:58.998  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-27 16:42:59.003  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-27 16:42:59.812  INFO 6116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:42:59.814  INFO 6116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:43:00.305  INFO 6116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 16:43:01.876  INFO 6116 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 16:43:02.176  INFO 6116 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2016-09-27 16:43:05.157  INFO 6116 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-09-27 16:43:05.200  INFO 6116 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-09-27 16:43:05.203  INFO 6116 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2016-09-27 16:43:05.204  INFO 6116 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2016-09-27 16:43:05.207  INFO 6116 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2016-09-27 16:43:05.520  INFO 6116 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-09-27 16:43:05.548  INFO 6116 --- [main] br.com.projeto.primeiro.AppMain          : Started AppMain in 42.602 seconds (JVM running for 46.333)
+2016-09-27 16:43:25.161  INFO 6116 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-09-27 16:43:25.162  INFO 6116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-09-27 16:43:25.493  INFO 6116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 330 ms
+2016-09-27 16:43:26.390  WARN 6116 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:43:27.187 ERROR 6116 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing ErrorPage[errorCode=0, location=/error]
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:393) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:426) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:342) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:317) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:110) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1022) ~[jackson-core-2.6.5.jar:2.6.5]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:891) ~[jackson-databind-2.6.5.jar:2.6.5]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:265) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:100) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:222) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:183) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:80) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:126) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:468) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:445) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:304) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:181) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_40]
+Caused by: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_40]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_40]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_40]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_40]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_40]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:124) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:172) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.InternalNioOutputBuffer.writeToSocket(InternalNioOutputBuffer.java:139) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.InternalNioOutputBuffer.addToBB(InternalNioOutputBuffer.java:197) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.InternalNioOutputBuffer.access$000(InternalNioOutputBuffer.java:41) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.InternalNioOutputBuffer$SocketOutputBuffer.doWrite(InternalNioOutputBuffer.java:320) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:116) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:256) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.Response.doWrite(Response.java:501) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:388) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	... 42 common frames omitted
+
+2016-09-27 16:43:46.042  WARN 6116 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:44:03.562  WARN 6116 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 16:45:42.965  WARN 6116 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:01:17.894  WARN 6116 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:05:28.072  WARN 6116 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:09:23.560 ERROR 6116 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: Validation failed for classes [br.com.projeto.primeiro.client.ClientEntity] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='não pode ser nulo', propertyPath=clientType, rootBeanClass=class br.com.projeto.primeiro.client.ClientEntity, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]] with root cause
+
+javax.validation.ConstraintViolationException: Validation failed for classes [br.com.projeto.primeiro.client.ClientEntity] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='não pode ser nulo', propertyPath=clientType, rootBeanClass=class br.com.projeto.primeiro.client.ClientEntity, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:160) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:95) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:214) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:92) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy90.persist(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:294) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy90.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:439) ~[spring-data-jpa-1.9.4.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:483) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:468) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:440) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:131) ~[spring-data-jpa-1.9.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy92.save(Unknown Source) ~[na:na]
+	at br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(ClientResource.java:53) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:207) ~[spring-security-web-4.0.3.RELEASE.jar:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176) ~[spring-security-web-4.0.3.RELEASE.jar:4.0.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_40]
+
+2016-09-27 17:10:24.473 ERROR 6116 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: Validation failed for classes [br.com.projeto.primeiro.client.ClientEntity] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='não pode ser nulo', propertyPath=clientType, rootBeanClass=class br.com.projeto.primeiro.client.ClientEntity, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]] with root cause
+
+javax.validation.ConstraintViolationException: Validation failed for classes [br.com.projeto.primeiro.client.ClientEntity] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='não pode ser nulo', propertyPath=clientType, rootBeanClass=class br.com.projeto.primeiro.client.ClientEntity, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:160) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:95) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:214) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:92) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy90.persist(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:294) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy90.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:439) ~[spring-data-jpa-1.9.4.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:483) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:468) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:440) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:131) ~[spring-data-jpa-1.9.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy92.save(Unknown Source) ~[na:na]
+	at br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(ClientResource.java:53) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:870) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:207) ~[spring-security-web-4.0.3.RELEASE.jar:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176) ~[spring-security-web-4.0.3.RELEASE.jar:4.0.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_40]
+
+2016-09-27 17:16:31.167  INFO 6560 --- [main] br.com.projeto.primeiro.AppMain          : Starting AppMain on CTBC_MODEM with PID 6560 (C:\Users\Camila\Documents\Projetos\primeiro-projeto\target\classes started by Camila in C:\Users\Camila\Documents\Projetos\primeiro-projeto)
+2016-09-27 17:16:31.178 DEBUG 6560 --- [main] br.com.projeto.primeiro.AppMain          : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-09-27 17:16:31.179  INFO 6560 --- [main] br.com.projeto.primeiro.AppMain          : No active profile set, falling back to default profiles: default
+2016-09-27 17:16:31.420  INFO 6560 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1372ed45: startup date [Tue Sep 27 17:16:31 BRT 2016]; root of context hierarchy
+2016-09-27 17:16:40.340  INFO 6560 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-09-27 17:16:41.375  INFO 6560 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 17:16:41.399  INFO 6560 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2016-09-27 17:16:43.019  INFO 6560 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2016-09-27 17:16:43.036  INFO 6560 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2016-09-27 17:16:43.452  INFO 6560 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de9cfbd8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-09-27 17:16:48.583  INFO 6560 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-09-27 17:16:48.847  INFO 6560 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-27 17:16:48.852  INFO 6560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-09-27 17:16:49.877  INFO 6560 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-27 17:16:49.881  INFO 6560 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 18477 ms
+2016-09-27 17:16:52.583  INFO 6560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-09-27 17:16:52.592  INFO 6560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-09-27 17:16:52.593  INFO 6560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-09-27 17:16:52.594  INFO 6560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-27 17:16:52.601  INFO 6560 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-09-27 17:16:52.606  INFO 6560 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-09-27 17:16:54.680  INFO 6560 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: bb20b39e-429c-4d73-9399-19277005b3e8
+
+2016-09-27 17:16:55.070  INFO 6560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-09-27 17:16:55.073  INFO 6560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-09-27 17:16:55.076  INFO 6560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-09-27 17:16:55.077  INFO 6560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-09-27 17:16:55.080  INFO 6560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-09-27 17:16:55.592  INFO 6560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@1798a79, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31ef01a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@784e716, org.springframework.security.web.header.HeaderWriterFilter@60560159, org.springframework.security.web.csrf.CsrfFilter@37da5ac6, org.springframework.security.web.authentication.logout.LogoutFilter@6db17b7f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26c2bc83, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c40acfe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5763fe65, org.springframework.security.web.session.SessionManagementFilter@7656fe3d, org.springframework.security.web.access.ExceptionTranslationFilter@270e3983]
+2016-09-27 17:16:59.180  INFO 6560 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-09-27 17:17:04.334  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1372ed45: startup date [Tue Sep 27 17:16:31 BRT 2016]; root of context hierarchy
+2016-09-27 17:17:04.975  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> br.com.projeto.primeiro.client.ClientResource.deleteClientEntity(java.lang.Long)
+2016-09-27 17:17:04.991  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.updateClientEntity(java.lang.Long,br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:17:04.995  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[POST]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:17:04.999  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.getClientEntity(java.lang.Long)
+2016-09-27 17:17:05.035  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<br.com.projeto.primeiro.client.ClientEntity>> br.com.projeto.primeiro.client.ClientResource.findAll()
+2016-09-27 17:17:05.074  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types],methods=[POST]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.clienttype.ClientTypeEntity> br.com.projeto.primeiro.clienttype.ClientTypeResource.createNewClientTypeEntity(br.com.projeto.primeiro.clienttype.ClientTypeEntity)
+2016-09-27 17:17:05.080  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.clienttype.ClientTypeEntity> br.com.projeto.primeiro.clienttype.ClientTypeResource.updateClientTypeEntity(java.lang.Long,br.com.projeto.primeiro.clienttype.ClientTypeEntity)
+2016-09-27 17:17:05.082  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.clienttype.ClientTypeEntity> br.com.projeto.primeiro.clienttype.ClientTypeResource.getClientTypeEntity(java.lang.Long)
+2016-09-27 17:17:05.084  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> br.com.projeto.primeiro.clienttype.ClientTypeResource.deleteClientTypeEntity(java.lang.Long)
+2016-09-27 17:17:05.087  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<br.com.projeto.primeiro.clienttype.ClientTypeEntity>> br.com.projeto.primeiro.clienttype.ClientTypeResource.findAll()
+2016-09-27 17:17:05.123  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-27 17:17:05.125  INFO 6560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-27 17:17:05.392  INFO 6560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 17:17:05.393  INFO 6560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 17:17:05.664  INFO 6560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 17:17:06.896  INFO 6560 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 17:17:07.180  INFO 6560 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2016-09-27 17:17:09.735  INFO 6560 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-09-27 17:17:09.884  INFO 6560 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-09-27 17:17:09.886  INFO 6560 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2016-09-27 17:17:09.888  INFO 6560 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2016-09-27 17:17:09.899  INFO 6560 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2016-09-27 17:17:10.471  INFO 6560 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-09-27 17:17:10.501  INFO 6560 --- [main] br.com.projeto.primeiro.AppMain          : Started AppMain in 41.544 seconds (JVM running for 45.133)
+2016-09-27 17:30:04.091  INFO 6560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-09-27 17:30:04.092  INFO 6560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-09-27 17:30:04.179  INFO 6560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 83 ms
+2016-09-27 17:30:04.612  WARN 6560 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:31:08.859  WARN 6560 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:33:42.058  INFO 10560 --- [main] br.com.projeto.primeiro.AppMain          : Starting AppMain on CTBC_MODEM with PID 10560 (C:\Users\Camila\Documents\Projetos\primeiro-projeto\target\classes started by Camila in C:\Users\Camila\Documents\Projetos\primeiro-projeto)
+2016-09-27 17:33:42.070 DEBUG 10560 --- [main] br.com.projeto.primeiro.AppMain          : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-09-27 17:33:42.072  INFO 10560 --- [main] br.com.projeto.primeiro.AppMain          : No active profile set, falling back to default profiles: default
+2016-09-27 17:33:42.472  INFO 10560 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1372ed45: startup date [Tue Sep 27 17:33:42 BRT 2016]; root of context hierarchy
+2016-09-27 17:33:49.061  INFO 10560 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-09-27 17:33:49.843  INFO 10560 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 17:33:49.857  INFO 10560 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2016-09-27 17:33:51.207  INFO 10560 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2016-09-27 17:33:51.232  INFO 10560 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2016-09-27 17:33:51.741  INFO 10560 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de9cfbd8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-09-27 17:33:56.436  INFO 10560 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-09-27 17:33:56.560  INFO 10560 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-27 17:33:56.581  INFO 10560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-09-27 17:33:57.636  INFO 10560 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-27 17:33:57.638  INFO 10560 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 15197 ms
+2016-09-27 17:33:59.639  INFO 10560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-09-27 17:33:59.644  INFO 10560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-09-27 17:33:59.645  INFO 10560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-09-27 17:33:59.647  INFO 10560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-27 17:33:59.652  INFO 10560 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-09-27 17:33:59.657  INFO 10560 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-09-27 17:34:00.849  INFO 10560 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: d2785049-b15c-4342-a0b1-aeb7d1faf83c
+
+2016-09-27 17:34:01.093  INFO 10560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-09-27 17:34:01.094  INFO 10560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-09-27 17:34:01.097  INFO 10560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-09-27 17:34:01.099  INFO 10560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-09-27 17:34:01.102  INFO 10560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-09-27 17:34:01.406  INFO 10560 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@256eb17, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63de81c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fd89426, org.springframework.security.web.header.HeaderWriterFilter@5b377b59, org.springframework.security.web.csrf.CsrfFilter@13bcb7bf, org.springframework.security.web.authentication.logout.LogoutFilter@603c2f20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b338840, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18f7f071, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@621ae7b5, org.springframework.security.web.session.SessionManagementFilter@18c34d93, org.springframework.security.web.access.ExceptionTranslationFilter@2b5c37af]
+2016-09-27 17:34:05.366  INFO 10560 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-09-27 17:34:11.498  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1372ed45: startup date [Tue Sep 27 17:33:42 BRT 2016]; root of context hierarchy
+2016-09-27 17:34:12.213  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> br.com.projeto.primeiro.client.ClientResource.deleteClientEntity(java.lang.Long)
+2016-09-27 17:34:12.234  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.updateClientEntity(java.lang.Long,br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:34:12.239  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients],methods=[POST]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:34:12.245  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<br.com.projeto.primeiro.client.ClientEntity>> br.com.projeto.primeiro.client.ClientResource.findAll()
+2016-09-27 17:34:12.251  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/clients/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.getClientEntity(java.lang.Long)
+2016-09-27 17:34:12.287  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types],methods=[POST]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.clienttype.ClientTypeEntity> br.com.projeto.primeiro.clienttype.ClientTypeResource.createNewClientTypeEntity(br.com.projeto.primeiro.clienttype.ClientTypeEntity)
+2016-09-27 17:34:12.328  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> br.com.projeto.primeiro.clienttype.ClientTypeResource.deleteClientTypeEntity(java.lang.Long)
+2016-09-27 17:34:12.344  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.clienttype.ClientTypeEntity> br.com.projeto.primeiro.clienttype.ClientTypeResource.updateClientTypeEntity(java.lang.Long,br.com.projeto.primeiro.clienttype.ClientTypeEntity)
+2016-09-27 17:34:12.346  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.clienttype.ClientTypeEntity> br.com.projeto.primeiro.clienttype.ClientTypeResource.getClientTypeEntity(java.lang.Long)
+2016-09-27 17:34:12.348  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/client-types/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<br.com.projeto.primeiro.clienttype.ClientTypeEntity>> br.com.projeto.primeiro.clienttype.ClientTypeResource.findAll()
+2016-09-27 17:34:12.363  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-27 17:34:12.365  INFO 10560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-27 17:34:12.795  INFO 10560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 17:34:12.808  INFO 10560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 17:34:13.171  INFO 10560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-27 17:34:14.424  INFO 10560 --- [main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/C:/Users/Camila/.m2/repository/org/springframework/integration/spring-integration-core/4.2.5.RELEASE/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-27 17:34:14.628  INFO 10560 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2016-09-27 17:34:16.195  INFO 10560 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-09-27 17:34:16.240  INFO 10560 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-09-27 17:34:16.242  INFO 10560 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2016-09-27 17:34:16.244  INFO 10560 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2016-09-27 17:34:16.244  INFO 10560 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2016-09-27 17:34:16.614  INFO 10560 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-09-27 17:34:16.638  INFO 10560 --- [main] br.com.projeto.primeiro.AppMain          : Started AppMain in 36.076 seconds (JVM running for 39.136)
+2016-09-27 17:36:05.173  INFO 10560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-09-27 17:36:05.176  INFO 10560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-09-27 17:36:05.302  INFO 10560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 123 ms
+2016-09-27 17:37:19.200  WARN 10560 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<br.com.projeto.primeiro.client.ClientEntity> br.com.projeto.primeiro.client.ClientResource.createNewClientEntity(br.com.projeto.primeiro.client.ClientEntity)
+2016-09-27 17:47:01.567  WARN 10560 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2016-09-27 17:57:37.998  WARN 10560 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2016-09-27 18:10:12.290  WARN 10560 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2016-09-27 18:10:41.511  WARN 10560 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2016-09-27 18:11:04.375  WARN 10560 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2016-09-27 18:12:09.722  WARN 10560 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported

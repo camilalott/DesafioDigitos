@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="index">
+  <head>
+    <meta charset="utf-8">
+    <title>Listar Clientes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script>
+    
+
+      angular.module('index', [])
+        .controller('listarClientsController', function($scope, $http, $templateCache) {
+	        	    
+	         $scope.clients = {};
+	         
+	        
+	              $http({method: 'POST', url: 'http://localhost:8080/clients'}).
+	              then(function(response) {
+	                $scope.clients = response.data;
+	              }, function(response) {
+	                $scope.clients = response.data || 'Request failed';
+	            });
+        });
+    </script>
+  </head>
+  <body ng-controller="listarClientsController">
+    
+    <table border="1">
+      <thead>
+        <tr>
+          <td>ID</td>
+          <td>Cliente</td>
+          <td>Tipo de Cliente</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr ng-repeat="client in clients">
+          <td>{{ client.id }}</td>
+          <td>{{ client.name }}</td>
+          <td>{{ client.clientType.description }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    
+  </body>
+</html>
