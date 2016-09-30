@@ -11,9 +11,7 @@
         .controller('listarClientsController', function($scope, $http, $templateCache) {
 	        	    
 	         $scope.clients = {};
-	         
-	        
-	              $http({method: 'POST', url: 'http://localhost:8080/clients'}).
+	              $http({method: 'GET', headers: { 'Content-type':'application/json' }, url: 'http://localhost:8080/clients'}).
 	              then(function(response) {
 	                $scope.clients = response.data;
 	              }, function(response) {
@@ -23,12 +21,14 @@
     </script>
   </head>
   <body ng-controller="listarClientsController">
-    
+    <h1>Lista de Clientes</h1>
     <table border="1">
       <thead>
         <tr>
           <td>ID</td>
-          <td>Cliente</td>
+          <td>Nome</td>
+          <td>Telefone</td>
+          <td>Email</td>
           <td>Tipo de Cliente</td>
         </tr>
       </thead>
@@ -37,12 +37,12 @@
         <tr ng-repeat="client in clients">
           <td>{{ client.id }}</td>
           <td>{{ client.name }}</td>
+          <td>{{ client.phone }}</td>
+          <td>{{ client.email }}</td>
           <td>{{ client.clientType.description }}</td>
         </tr>
       </tbody>
     </table>
-
-    
     
   </body>
 </html>

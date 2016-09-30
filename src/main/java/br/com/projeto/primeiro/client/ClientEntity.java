@@ -6,10 +6,6 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-
-import org.hibernate.validator.constraints.Email;
 
 import br.com.projeto.primeiro.clienttype.ClientTypeEntity;
 import br.com.projeto.primeiro.utils.BaseEntity;
@@ -26,20 +22,20 @@ public class ClientEntity extends BaseEntity<Long> {
 
 	private static final long serialVersionUID = 201602010251L;
 
-	@NotNull
-	@Size(min = 4, max = 255)
+	//	@NotNull
+	//	@Size(min = 4, max = 255)
 	@Column(name = "name", length = 255, nullable = false)
 	private String name;
 
-	@Email
+	//	@Email
 	@Column(name = "phone", length = 20)
 	private String phone;
-	
-	@Email
+
+	//	@Email
 	@Column(name = "email", length = 255)
 	private String email;
-	
-	@NotNull
+
+	//	@NotNull
 	@ManyToOne
 	@JoinColumn(name = "client_type_id", nullable = false)
 	private ClientTypeEntity clientType;

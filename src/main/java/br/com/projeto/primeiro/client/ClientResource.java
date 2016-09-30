@@ -7,7 +7,6 @@ import javax.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.projeto.primeiro.clienttype.ClientTypeRepository;
 
-@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("/clients")
 public class ClientResource {
@@ -38,8 +36,8 @@ public class ClientResource {
 
 		return new ResponseEntity<ClientEntity>(clientEntity, HttpStatus.OK);
 	}
-	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+
+	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<List<ClientEntity>> findAll() {
 
 		List<ClientEntity> clientEntity = clientRepository.findAll();
@@ -72,7 +70,7 @@ public class ClientResource {
 	@RequestMapping(method = RequestMethod.DELETE)
 	public ResponseEntity<?> deleteClientEntity(@PathVariable Long id) {
 
-			clientRepository.delete(id);
+		clientRepository.delete(id);
 
 		return new ResponseEntity<>(HttpStatus.OK);
 	}

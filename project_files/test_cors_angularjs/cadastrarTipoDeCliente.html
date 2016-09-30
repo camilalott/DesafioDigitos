@@ -14,7 +14,7 @@
 	         $scope.clientType = {};
 	         
 	         $scope.cadastrar = function (client) {
-	              $http({method: 'POST', url: 'http://localhost:8080/client-types', data: $scope.clientType}).
+	              $http({method: 'POST', headers: { 'Content-type':'application/json' }, url: 'http://localhost:8080/client-types', data: $scope.clientType}).
 	              then(function(response) {
 	                $scope.clientType = response.data;
 	              }, function(response) {

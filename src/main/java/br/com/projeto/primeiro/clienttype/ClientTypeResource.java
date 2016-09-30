@@ -7,7 +7,6 @@ import javax.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.projeto.primeiro.clienttype.ClientTypeRepository;
 
-@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("/client-types")
 public class ClientTypeResource {
@@ -36,7 +34,7 @@ public class ClientTypeResource {
 		return new ResponseEntity<ClientTypeEntity>(clientTypeEntity, HttpStatus.OK);
 	}
 	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<List<ClientTypeEntity>> findAll() {
 
 		List<ClientTypeEntity> clientTypeEntity = clientTypeRepository.findAll();
