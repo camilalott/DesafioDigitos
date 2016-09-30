@@ -13,17 +13,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.projeto.primeiro.clienttype.ClientTypeRepository;
-
 @RestController
 @RequestMapping("/clients")
 public class ClientResource {
 
 	@Autowired
 	private ClientRepository clientRepository;
-
-	@Autowired
-	private ClientTypeRepository clientTypeRepository;
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public ResponseEntity<ClientEntity> getClientEntity(@PathVariable Long id) {

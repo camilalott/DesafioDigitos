@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="index">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastrar Tipo de Cliente</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script>
+    
+      angular.module('index', [])
+        .controller('cadastrarClientTypeController', function($scope, $http) {
+	       $scope.method = 'POST';
+	       $scope.url = 'http://localhost:8080/clients';
+	        	    
+	         $scope.clientType = {};
+	         
+	         $scope.cadastrar = function (client) {
+	              $http({method: 'POST', headers: { 'Content-type':'application/json' }, url: 'http://localhost:8080/client-types', data: $scope.clientType}).
+	              then(function(response) {
+	                $scope.clientType = response.data;
+	              }, function(response) {
+	                $scope.clientType = response.data || 'Request failed';
+	            });
+	         };     
+
+        });
+    </script>
+  </head>
+  <body ng-controller="cadastrarClientTypeController">
+    <h1>Cadastro de Tipo de Cliente</h1>
+    <div class="form-group row">
+       <div class="col-md-6">
+           <strong>Informe a descrição: </strong>
+           <input ng-model="clientType.description" placeholder="Digite a descriçao" type="text">
+       </div>
+       <a class="btn btn-info" href="" ng-click="cadastrar()">Cadastrar</a>
+    </div>   
+
+    
+    
+  </body>
+</html>
